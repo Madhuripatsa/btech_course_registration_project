@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Award, BookOpen, Building2, Check, CheckCircle2, ChevronRight, Clock, Eye, EyeOff, Filter, GraduationCap, Info, Layers, LogOut, MapPin, Plus, PlusCircle, Printer, RefreshCw, Search, ShieldCheck, Sparkles, Trash2, User, UserCheck, Users, X, XCircle } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || '/api';
 const MAX_CREDITS = 24;
 
 const DEPARTMENTS = ['Computer Science & Engg.', 'Information Technology', 'Electronics & Comm. Engg.', 'Electrical & Electronics Engg.', 'Mechanical Engineering', 'Civil Engineering', 'AI & Data Science'];
